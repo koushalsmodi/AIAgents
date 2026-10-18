@@ -1,0 +1,12 @@
+[project]
+name = "aiagents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "illustrated-agents[jupyter]",
+]
+
+[tool.uv.sources]
+illustrated-agents = { git = "https://github.com/HandsOnLLM/An-Illustrated-Guide-To-AI-Agents.git" }
